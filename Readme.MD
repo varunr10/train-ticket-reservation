@@ -55,7 +55,7 @@ Example url: localhost:8081/booking/view/2392bec6-5b72-4b6f-845d-1cb786324e44
 Response body:
 {
     "receiptId": "2392bec6-5b72-4b6f-845d-1cb786324e44",
-    "seatNumber": 2,
+    "seatNumber": 1,
     "seatCategory": "LOWER",
     "section": "AC",
     "username": "Varun Ram"
