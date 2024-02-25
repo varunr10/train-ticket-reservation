@@ -15,7 +15,8 @@ An API to remove a user from the train
 
 An API to modify a user's seat
 
-
+Class Diagram
+![Alt Class Diagram](https://github.com/varunr10/train-ticket-reservation/blob/main/ClassDiagram.PNG)
 
 Allowed APIS
 
