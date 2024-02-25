@@ -15,7 +15,7 @@ An API to modify a user's seat
 Allowed APIS
 
 1) Create Booking
-
+```
 URL: localhost:8081/booking/create
 Method: POST
 Request Body: 
@@ -29,6 +29,7 @@ Request Body:
 },
 "pricePaid": 7.00
 }
+```
 Response Body: 
 
 {
