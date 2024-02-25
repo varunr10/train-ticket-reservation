@@ -18,6 +18,7 @@ Allowed APIS
 ```
 URL: localhost:8081/booking/create
 Method: POST
+
 Request Body: 
 {
 "from":"LONDON",
@@ -29,7 +30,7 @@ Request Body:
 },
 "pricePaid": 7.00
 }
-```
+
 Response Body: 
 
 {
@@ -40,12 +41,17 @@ Response Body:
     "username": "Varun Ram"
 }
 
+```
 
 2) View Details of teh receipt
 
+```
 Url: localhost:8081/booking/view/{receiptId)
+
 Method: GET
+
 Example url: localhost:8081/booking/view/2392bec6-5b72-4b6f-845d-1cb786324e44
+
 Response body:
 {
     "receiptId": "2392bec6-5b72-4b6f-845d-1cb786324e44",
@@ -54,13 +60,17 @@ Response body:
     "section": "AC",
     "username": "Varun Ram"
 }
-
+```
 
 3) View users and seats by section
 
+```
 Url: localhost:8081/booking/all/{trainNumber}/section/{section}
+
 Method: GET
+
 Example Url: localhost:8081/booking/all/11111/section/AC
+
 Response Body:
 [
     {
@@ -81,17 +91,28 @@ Response Body:
     }
 ]
 
+```
 
 4) Remove user from a train
 
+```
 Url: localhost:8081/booking/delete/{trainNumber}/email/{emailId)
+
 Method: Delete
+
 Example Url: localhost:8081/booking/delete/11111/email/VarunRam@gmail.com
+
 Response Body: Deleted ticket booking
+```
 
 5) Modify User seat 
 
+```
 Url: localhost:8081/booking/update/11111/email/{email}/newseat/{newseatnumber}
+
 Method: PUT
+
 Example Url: localhost:8081/booking/update/11111/email/VarunRam@gmail.com/newseat/7
+
 Response Body: Modified Seat Number for user
+```
