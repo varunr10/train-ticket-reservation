@@ -122,3 +122,6 @@ Example Url: localhost:8081/booking/update/11111/email/VarunRam@gmail.com/newsea
 
 Response Body: Modified Seat Number for user
 ```
+
+
+![Alt Entity and Class Diagram](https://github.com/varunr10/train-ticket-reservation/blob/main/Entity_and_Class_diagram.jpg)
